@@ -16,7 +16,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 header p {
@@ -29,17 +29,16 @@ header p {
     max-width: 900px;
     margin: 20px auto;
     background-color: white;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
-    line-height: 1.6;
 }
 
 img.portrait {
     display: block;
-    max-width: 200px;
-    margin: 0 auto 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 220px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .whatsapp {
@@ -48,39 +47,10 @@ img.portrait {
     left: 20px;
     background-color: #25D366;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 18px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-    transition: background-color 0.3s ease;
-}
-
-.whatsapp:hover {
-    background-color: #1ebc59;
-}
-
-/* מובייל */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.5em;
-    }
-
-    header p {
-        font-size: 1em;
-    }
-
-    .container {
-        padding: 15px;
-    }
-
-    img.portrait {
-        max-width: 150px;
-    }
-
-    .whatsapp {
-        font-size: 14px;
-        padding: 10px 16px;
-    }
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
